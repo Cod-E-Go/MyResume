@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - CV</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .left-section {
+            width: 65%;
+        }
+        .right-section {
+            width: 30%;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        /* Profile picture */
+        .profile-pic {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        /* Section styles */
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .section p {
+            margin-bottom: 10px;
+        }
+        /* Project item styles */
+        .project-item {
+            margin-bottom: 20px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        /* Links and references styles */
+        .links-section a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .links-section a:hover {
+            text-decoration: underline;
+        }
+        /* Responsive design */
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+            .left-section, .right-section {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <section id="personal-information" class="section">
+                <h1>John Doe</h1>
+                <p>Passionate software engineer with experience in web development and machine learning.</p>
+            </section>
+            
+            <section id="skills" class="section">
+                <h2>Skills</h2>
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML/CSS</li>
+                    <li>Python</li>
+                    <!-- Add more technical skills -->
+                </ul>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Problem-solving</li>
+                    <!-- Add more soft skills -->
+                </ul>
+            </section>
+            
+            <section id="projects" class="section">
+                <h2>Projects</h2>
+                <div class="project-item">
+                    <h3>Project Name</h3>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Role: Full-stack Developer</p>
+                    <!-- Add more project details -->
+                </div>
+            </section>
+            
+            <section id="education" class="section">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <h3>University of Example</h3>
+                        <p>Bachelor of Science in Computer Science</p>
+                        <p>Graduated: 2022</p>
+                        <p>Dean's List, Academic Excellence Award</p>
+                    </li>
+                </ul>
+            </section>
+            
+            <section id="links-and-references" class="section links-section">
+                <h2>Links and References</h2>
+                <p>Portfolio: <a href="https://portfolio.example.com">portfolio.example.com</a></p>
+                <p>GitHub: <a href="https://github.com/johndoe">github.com/johndoe</a></p>
+                <p>References available upon request</p>
+            </section>
+        </div>
+        <div class="right-section">
+            <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+            <section id="contact-information" class="section">
+                <h2>Contact Information</h2>
+                <p>Email: john.doe@example.com</p>
+                <p>Phone: +1234567890</p>
+                <p>GitHub: <a href="https://github.com/johndoe">johndoe</a></p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
